@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f1bf6e47975d71103c39f757f053afed" label="ABC" max_length="40" name="u_abc" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" label="Reference" max_length="32" name="u_reference_1" reference="u_ui_hungry" type="reference"/>
+        <element label="Shop Date" max_length="40" name="u_shop_date" type="glide_date_time"/>
+        <element choice="1" label="Status" max_length="40" name="u_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" value="cancelled"/>
+                <element inactive_on_update="false" label="Closed" value="closed"/>
+                <element inactive_on_update="false" label="Open" value="open"/>
+                <element inactive_on_update="false" label="Shopped" value="Shopped"/>
+            </choice>
+        </element>
+        <element choice="1" label="Store" mandatory="true" max_length="40" name="u_store" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Auchan" value="auchan"/>
+                <element inactive_on_update="false" label="Carrefour" value="carrefour"/>
+                <element inactive_on_update="false" label="Kaufland" value="kaufland"/>
+                <element inactive_on_update="false" label="Lidl" value="lidl"/>
+                <element inactive_on_update="false" label="Penny" value="penny"/>
+                <element inactive_on_update="false" label="Remarkt" value="remarkt"/>
+                <element inactive_on_update="false" label="Selgros" value="selgros"/>
+            </choice>
+        </element>
+        <element choice="1" label="Type" max_length="40" name="u_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="In person" value="in_person"/>
+                <element inactive_on_update="false" label="Online" value="online"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_reference_1"/>
+        </index>
+    </element>
+</database>

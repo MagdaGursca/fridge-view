@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a52f23fe975d31103c39f757f053aff7" label="UI Hungry" max_length="40" name="u_ui_hungry" type="collection">
+        <element label="Added" max_length="40" name="u_added" type="boolean"/>
+        <element choice="1" label="Category" mandatory="true" max_length="40" name="u_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Meat products" sequence="0" value="1"/>
+                <element inactive="true" inactive_on_update="true" label="Sauces" sequence="0" value="sauces"/>
+                <element inactive_on_update="false" label="Dairy products" sequence="1" value="2"/>
+                <element inactive_on_update="false" label="Grocery products" sequence="2" value="3"/>
+                <element inactive_on_update="false" label="Drinks" sequence="3" value="4"/>
+                <element inactive_on_update="false" label="Sauces" sequence="4" value="5"/>
+                <element inactive_on_update="false" label="Food" sequence="5" value="6"/>
+                <element inactive_on_update="false" label="Detergents" sequence="6" value="7"/>
+                <element inactive_on_update="false" label="Clothes" sequence="7" value="8"/>
+            </choice>
+        </element>
+        <element label="Favorite" max_length="40" name="u_favorite" type="boolean"/>
+        <element label="Image" max_length="40" name="u_image" type="file_attachment"/>
+        <element label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
+        <element attributes="encode_utf8=false" label="Reference" max_length="32" name="u_reference_1" reference="u_abc" type="reference"/>
+        <element choice="1" label="State" max_length="40" name="u_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cancelled" value="3"/>
+                <element inactive_on_update="false" label="Open" value="1"/>
+                <element inactive_on_update="false" label="Shopped" value="2"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_reference_1"/>
+        </index>
+    </element>
+</database>

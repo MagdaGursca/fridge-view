@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_store" table="u_abc" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_store</element>
+            <name>u_abc</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-20 08:10:33</sys_created_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>u_store</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fridge View">8c01d13097a9b9103c39f757f053af73</sys_scope>
+            <sys_update_name>sys_choice_u_abc_u_store</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-25 11:46:21</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_store</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Auchan</label>
+            <language>en</language>
+            <name>u_abc</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-20 08:10:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e821fe03979d71103c39f757f053afd7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-20 08:10:58</sys_updated_on>
+            <value>auchan</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_store</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Carrefour</label>
+            <language>en</language>
+            <name>u_abc</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-20 08:11:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6b313643979d71103c39f757f053afee</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-20 08:11:39</sys_updated_on>
+            <value>carrefour</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_store</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Kaufland</label>
+            <language>en</language>
+            <name>u_abc</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-20 08:10:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6a113e03979d71103c39f757f053af93</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-20 08:10:46</sys_updated_on>
+            <value>kaufland</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_store</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lidl</label>
+            <language>en</language>
+            <name>u_abc</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-20 08:10:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf017e03979d71103c39f757f053af89</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-20 08:10:36</sys_updated_on>
+            <value>lidl</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_store</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Penny</label>
+            <language>en</language>
+            <name>u_abc</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-20 08:11:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c831f243979d71103c39f757f053afea</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-20 08:11:06</sys_updated_on>
+            <value>penny</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_store</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Remarkt</label>
+            <language>en</language>
+            <name>u_abc</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-20 08:11:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9517243979d71103c39f757f053af9c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-20 08:11:49</sys_updated_on>
+            <value>remarkt</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_store</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Selgros</label>
+            <language>en</language>
+            <name>u_abc</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-09-20 08:11:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d8613a43979d71103c39f757f053af55</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-09-20 08:11:58</sys_updated_on>
+            <value>selgros</value>
+        </sys_choice>
+    </sys_choice>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Fridge View">8c01d13097a9b9103c39f757f053af73</claim_owner_scope>
+        <claim_timestamp>18acc296c700000001</claim_timestamp>
+        <metadata_update_name>sys_choice_u_abc_u_store</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Fridge View</previous_claim_name>
+        <previous_claim_scope>8c01d13097a9b9103c39f757f053af73</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-25 11:46:21</sys_created_on>
+        <sys_id>247295f097a9b9103c39f757f053af04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-25 11:46:21</sys_updated_on>
+    </sys_claim>
+</record_update>

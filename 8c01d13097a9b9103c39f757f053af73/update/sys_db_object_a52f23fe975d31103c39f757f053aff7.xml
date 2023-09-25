@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>true</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>UI Hungry</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>u_ui_hungry</name>
+        <number_ref display_value="UI">a73fe3fe975d31103c39f757f053af6c</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-19 18:03:32</sys_created_on>
+        <sys_id>a52f23fe975d31103c39f757f053aff7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>UI Hungry</sys_name>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fridge View">8c01d13097a9b9103c39f757f053af73</sys_scope>
+        <sys_update_name>sys_db_object_a52f23fe975d31103c39f757f053aff7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-25 11:45:35</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role display_value="u_ui_hungry_user" name="u_ui_hungry_user">873fafbe975d31103c39f757f053afdf</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="Fridge View">8c01d13097a9b9103c39f757f053af73</claim_owner_scope>
+        <claim_timestamp>18acc28b7340000001</claim_timestamp>
+        <metadata_update_name>sys_db_object_a52f23fe975d31103c39f757f053aff7</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>Fridge View</previous_claim_name>
+        <previous_claim_scope>8c01d13097a9b9103c39f757f053af73</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-25 11:45:35</sys_created_on>
+        <sys_id>41421db097a9b9103c39f757f053af04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-25 11:45:35</sys_updated_on>
+    </sys_claim>
+</record_update>

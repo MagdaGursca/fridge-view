@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="c5b52bc79791b1103c39f757f053afbd" label="List item" max_length="40" name="u_list_item" type="collection">
+        <element attributes="encode_utf8=false" label="ABC" max_length="32" name="u_abc" reference="u_abc" type="reference"/>
+        <element attributes="encode_utf8=false" label="Item" max_length="32" name="u_item" reference="u_ui_hungry" type="reference"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="u_number" type="string"/>
+        <index name="index">
+            <element name="u_abc"/>
+        </index>
+        <index name="index2">
+            <element name="u_item"/>
+        </index>
+    </element>
+</database>
